@@ -29,16 +29,23 @@ nav{
     background: #032d0f;
     border-image: 25px;
 }
-.logo-inner{
+/* .logo-inner{
     width: 80px;
     height: 80px;
     border: 5px solid wheat;
-}
+} */
 .logo-inner2{
     color: #fff;
-    font-size: 20px;
+   
     font-weight: 100;
     margin: 0 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 8px 15px;
 }
 .menu ul{
      display: inline-flex;
