@@ -125,3 +125,71 @@ nav{
     font-size: 35%;
     font-weight: 600;
 }
+.thenature{
+    background: royalblue;
+}
+p{
+    margin-bottom: 25px;
+    padding:10px 15px;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+}
+.creatures{
+    background: #032d0f;
+    justify-content: center;
+    padding: 0 25px;
+    margin: 0 25px;
+}
+h5{
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+}
+h6{
+    font-size: 20px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: aquamarine;
+    font-style: italic;
+}
+.services{
+    font-size: 20px;
+    padding: 20px;
+    background-color: #1b1b1b;
+}
+.services li{
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: 300;
+    color: aqua;
+}
+h4{
+    margin-bottom: 45px;
+    font-weight: 600;
+    font-size: 30px;
+    color: darkorange;
+    font-style: oblique;
+}
+h3{
+    font-style: italic;
+    margin-top: 55px;
+    color: bisque;
+}
+.contacts h5{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 55px;
+    padding: 25px;
+    background: #1b1b1b;
+}
+.contacts h6{
+    font-size: 25px;
+    color: aqua;font-style: italic;
+    background: steelblue;
+}
