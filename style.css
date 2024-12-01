@@ -46,6 +46,8 @@ nav{
     justify-content: space-between;
     font-size: 18px;
     padding: 8px 15px;
+    height: 60px;
+
 }
 .menu ul{
      display: inline-flex;
@@ -140,7 +142,35 @@ p{
     background: #032d0f;
     justify-content: center;
     padding: 0 25px;
-    margin: 0 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+   
+}
+.assets{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.asset_image{
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+}
+.creatures_content{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.creatures_content h1{
+    color: red;
+    font-size: 20px;
+
 }
 h5{
     font-size: 20px;
@@ -162,6 +192,14 @@ h6{
     font-size: 20px;
     padding: 20px;
     background-color: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_content{
+margin-top: 150px;
 }
 .services li{
     margin-bottom: 20px;
@@ -184,7 +222,7 @@ h3{
 .contacts h5{
     font-size: 25px;
     color: #fff;
-    margin-top: 55px;
+    margin-top: 65px;
     padding: 25px;
     background: #1b1b1b;
 }
@@ -192,4 +230,51 @@ h3{
     font-size: 25px;
     color: aqua;font-style: italic;
     background: steelblue;
+  
+}
+.contacts{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    width: 50%;
+
+    display: flex;
+    align-items:left;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    border: 1px solid #fff;
+    padding: 20px;
+    
+}
+label{
+    padding: 10px;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    padding: 20px;
+
+}
+
+button{
+    padding: 12px;
+    width: 120px;
+    margin: 20px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: blue;
 }
