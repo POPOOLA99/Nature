@@ -3,37 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts Of Nature</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav>
-        <div class="menu">
-          <div>
-            <img src="image/logoImage.png" alt="logo" width="100px" />
-          </div>
-  
-          <ul>
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="/about.html">ABOUT</a></li>
-            <li><a href="/services.html">SERVICES</a></li>
-            <li><a href="/contact.html">CONTACT</a></li>
-          </ul>
-        </div>
-      </nav>
-    <div class="contacts">
-    <h5>Tell no: 07060593056</h5>
-    <h6>Email address; popoolaridwan215@gmail.com</h6>
-    <h6>website:- www.naturelive.com</h6>
-    <form>
-        <Label>Enter Your phone number</Label>
-        <input type="number" name="" id="">
-        <Label>Enter Your Address</Label>
-        <input type="text">
-        <Label>Enter Your Email Address</Label>
-        <input type="email">
-<button>Submit</button>
+  <div class="form">
+    <h1>Registration Form</h1>
+    <form action="form">
+      <table>
+      <tr>
+          <td>
+            Name: 
+          </td>
+          <td>
+            <input type="text" placeholder="Name" name="">
+          </td>
+      </tr>
+      <tr>
+        <td>
+          Phone Number:
+        </td>
+        <td>
+          <input type="phone" placeholder="+234**********">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Email Id:
+        </td>
+        <td>
+          <input type="email" placeholder="example@**">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Password:
+        </td>
+        <td>
+          <input type="password" placeholder="******">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gender:
+        </td>
+        <td>
+          <input type="radio" name="gender" >Male
+          <input type="radio" name="gender" >Female
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Date Of Birth:
+        </td>
+        <td>
+          <input type="date">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Hobbies:
+        </td>
+        <td>
+          <input type="checkbox" singing>singing
+          <input type="checkbox" singing>dancing
+          <input type="checkbox" singing>playing
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Education Qualification:
+        </td>
+        <td>
+          <select>
+            <option>Select option</option>
+            <option>10+2</option>
+            <option>Graduation</option>
+            <option>Postgraduation</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Address:
+        </td>
+        <td>
+          <textarea rows="5" col="17" placeholder="address"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" value="submit">
+          <input type="reset" value="reset">
+        </td>
+      </tr>
+      </table>
     </form>
-</div>
+  </div>
 </body>
 </html>

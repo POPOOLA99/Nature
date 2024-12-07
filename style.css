@@ -242,39 +242,16 @@ h3{
     justify-content: center;
     flex-direction: column;
 }
-form{
-    width: 50%;
-
-    display: flex;
-    align-items:left;
-    flex-direction: column;
+.form{
+    text-align: center;
+    background: royalblue;
     justify-content: center;
-    margin: 20px auto;
-    border: 1px solid #fff;
-    padding: 20px;
-    
+    margin: 15px;
+    padding: 15px;
 }
-label{
-    padding: 10px;
-}
-input{
-    width: 100%;
-    padding: 20px;
-    padding: 20px;
-
-}
-
-button{
-    padding: 12px;
-    width: 120px;
-    margin: 20px;
+.form h1{
+    font-size: 25px;
+    font-weight: 400;
     color: #fff;
-    background-color: blue;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: #fff;
-    color: blue;
+    margin-bottom: 55px;
 }
